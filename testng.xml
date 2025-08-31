@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Loan Prediction Automation Suite" parallel="false">
+
+    <!-- Desktop Chrome -->
+    <test name="Desktop Chrome Test">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="frontend.tests.PageLoadTest"/>
+        </classes>
+    </test>
+
+    <!-- Desktop Firefox -->
+    <test name="Desktop Firefox Test">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="frontend.tests.PageLoadTest"/>
+        </classes>
+    </test>
+
+</suite>
