@@ -20,5 +20,7 @@ public class HandlePopUp extends BaseTest {
 		home.submitEmailId();
 		home.submitPhoneNumber();
 		home.clickProgramDetailsBtn();
+		Assert.assertEquals(home.getSucessText(), "Generating Brochure. Check Your Inbox");
+		
 	}
 }

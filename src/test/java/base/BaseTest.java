@@ -30,7 +30,7 @@ public class BaseTest {
         }
 
         // Set default configurations
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
         driver.manage().window().maximize();
 
         // Open the target webpage

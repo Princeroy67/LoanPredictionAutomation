@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-31T18:03:11 IST" name="Default suite" finished-at="2025-08-31T18:03:27 IST" duration-ms="16367">
+  <suite started-at="2025-09-01T11:29:16 IST" name="Default suite" finished-at="2025-09-01T11:29:48 IST" duration-ms="31391">
     <groups>
     </groups>
-    <test started-at="2025-08-31T18:03:11 IST" name="Default test" finished-at="2025-08-31T18:03:27 IST" duration-ms="16367">
+    <test started-at="2025-09-01T11:29:16 IST" name="Default test" finished-at="2025-09-01T11:29:48 IST" duration-ms="31391">
       <class name="frontend.tests.HandlePopUp">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:frontend.tests.HandlePopUp@2d3379b4]" started-at="2025-08-31T18:03:11 IST" name="setup" finished-at="2025-08-31T18:03:14 IST" duration-ms="2753" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:frontend.tests.HandlePopUp@74235045]" started-at="2025-09-01T11:29:16 IST" name="setup" finished-at="2025-09-01T11:29:19 IST" duration-ms="2590" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,30 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="fillInputBox()[pri:0, instance:frontend.tests.HandlePopUp@2d3379b4]" started-at="2025-08-31T18:03:14 IST" name="fillInputBox" finished-at="2025-08-31T18:03:27 IST" duration-ms="13494" status="PASS">
+        <test-method signature="fillInputBox()[pri:0, instance:frontend.tests.HandlePopUp@74235045]" started-at="2025-09-01T11:29:19 IST" name="fillInputBox" finished-at="2025-09-01T11:29:32 IST" duration-ms="13445" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillInputBox -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:frontend.tests.HandlePopUp@2d3379b4]" started-at="2025-08-31T18:03:27 IST" name="tearDown" finished-at="2025-08-31T18:03:27 IST" duration-ms="100" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:frontend.tests.HandlePopUp@74235045]" started-at="2025-09-01T11:29:32 IST" name="tearDown" finished-at="2025-09-01T11:29:32 IST" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:frontend.tests.HandlePopUp@74235045]" started-at="2025-09-01T11:29:32 IST" name="setup" finished-at="2025-09-01T11:29:34 IST" duration-ms="1491" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getProgramVisible()[pri:0, instance:frontend.tests.HandlePopUp@74235045]" started-at="2025-09-01T11:29:34 IST" name="getProgramVisible" finished-at="2025-09-01T11:29:47 IST" duration-ms="13615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProgramVisible -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:frontend.tests.HandlePopUp@74235045]" started-at="2025-09-01T11:29:47 IST" name="tearDown" finished-at="2025-09-01T11:29:48 IST" duration-ms="112" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

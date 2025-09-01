@@ -29,6 +29,9 @@ public class HomePageLoanPrediction {
     @FindBy(xpath="//div/button[contains(text(),'Get Program Details')]")
     WebElement getProgramDetailsBtn;
     
+    @FindBy(xpath="//div[contains(text(),'Generating Brochure.')]")
+    WebElement sucessText;
+    
     // Constructor
     public HomePageLoanPrediction(WebDriver driver) {
         this.driver = driver;
@@ -59,6 +62,9 @@ public class HomePageLoanPrediction {
     }
     public void clickProgramDetailsBtn() {
     	getProgramDetailsBtn.click();
+    }
+    public String getSucessText() {
+    	return sucessText.getText();
     }
     
     
