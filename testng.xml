@@ -17,5 +17,19 @@
             <class name="frontend.tests.PageLoadTest"/>
         </classes>
     </test>
+  
+    <test name="Frontend Tests">
+        <packages>
+            <package name="frontend.tests"/>
+        </packages>
+    </test>
+    
+    <test name="Backend Tests">
+        <packages>
+            <package name="backend.tests"/>
+        </packages>
+    </test>
+
+
 
 </suite>
