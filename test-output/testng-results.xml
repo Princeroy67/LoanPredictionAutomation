@@ -1,21 +1,130 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-01T15:00:47 IST" name="Default suite" finished-at="2025-09-01T15:00:50 IST" duration-ms="2619">
+  <suite started-at="2025-09-01T15:25:23 IST" name="Loan Prediction Automation Suite" finished-at="2025-09-01T15:27:03 IST" duration-ms="100846">
     <groups>
     </groups>
-    <test started-at="2025-09-01T15:00:47 IST" name="Default test" finished-at="2025-09-01T15:00:50 IST" duration-ms="2619">
+    <test started-at="2025-09-01T15:25:23 IST" name="Desktop Chrome Test" finished-at="2025-09-01T15:25:36 IST" duration-ms="13445">
+      <class name="frontend.tests.PageLoadTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:frontend.tests.PageLoadTest@6b2ea799]" started-at="2025-09-01T15:25:23 IST" name="setup" finished-at="2025-09-01T15:25:26 IST" duration-ms="3483" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyPageLoad()[pri:0, instance:frontend.tests.PageLoadTest@6b2ea799]" started-at="2025-09-01T15:25:26 IST" name="verifyPageLoad" finished-at="2025-09-01T15:25:36 IST" duration-ms="9845" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageLoad -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:frontend.tests.PageLoadTest@6b2ea799]" started-at="2025-09-01T15:25:36 IST" name="tearDown" finished-at="2025-09-01T15:25:36 IST" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- frontend.tests.PageLoadTest -->
+    </test> <!-- Desktop Chrome Test -->
+    <test started-at="2025-09-01T15:25:36 IST" name="Desktop Firefox Test" finished-at="2025-09-01T15:26:20 IST" duration-ms="44335">
+      <class name="frontend.tests.PageLoadTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:frontend.tests.PageLoadTest@41a2befb]" started-at="2025-09-01T15:25:36 IST" name="setup" finished-at="2025-09-01T15:26:20 IST" duration-ms="43700" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyPageLoad()[pri:0, instance:frontend.tests.PageLoadTest@41a2befb]" started-at="2025-09-01T15:26:20 IST" name="verifyPageLoad" finished-at="2025-09-01T15:26:20 IST" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageLoad -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:frontend.tests.PageLoadTest@41a2befb]" started-at="2025-09-01T15:26:20 IST" name="tearDown" finished-at="2025-09-01T15:26:20 IST" duration-ms="578" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- frontend.tests.PageLoadTest -->
+    </test> <!-- Desktop Firefox Test -->
+    <test started-at="2025-09-01T15:26:20 IST" name="Frontend Tests" finished-at="2025-09-01T15:27:01 IST" duration-ms="40385">
+      <class name="frontend.tests.HandlePopUp">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:frontend.tests.HandlePopUp@5fbe4146]" started-at="2025-09-01T15:26:20 IST" name="setup" finished-at="2025-09-01T15:26:31 IST" duration-ms="10355" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="fillInputBox()[pri:0, instance:frontend.tests.HandlePopUp@5fbe4146]" started-at="2025-09-01T15:26:31 IST" name="fillInputBox" finished-at="2025-09-01T15:26:38 IST" duration-ms="7094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillInputBox -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:frontend.tests.HandlePopUp@5fbe4146]" started-at="2025-09-01T15:26:38 IST" name="tearDown" finished-at="2025-09-01T15:26:38 IST" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:frontend.tests.HandlePopUp@5fbe4146]" started-at="2025-09-01T15:26:38 IST" name="setup" finished-at="2025-09-01T15:26:47 IST" duration-ms="8807" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getProgramVisible()[pri:0, instance:frontend.tests.HandlePopUp@5fbe4146]" started-at="2025-09-01T15:26:47 IST" name="getProgramVisible" finished-at="2025-09-01T15:26:55 IST" duration-ms="8063" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProgramVisible -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:frontend.tests.HandlePopUp@5fbe4146]" started-at="2025-09-01T15:26:55 IST" name="tearDown" finished-at="2025-09-01T15:26:55 IST" duration-ms="103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- frontend.tests.HandlePopUp -->
+      <class name="frontend.tests.PageLoadTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:frontend.tests.PageLoadTest@1e66f1f5]" started-at="2025-09-01T15:26:55 IST" name="setup" finished-at="2025-09-01T15:26:57 IST" duration-ms="2312" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyPageLoad()[pri:0, instance:frontend.tests.PageLoadTest@1e66f1f5]" started-at="2025-09-01T15:26:57 IST" name="verifyPageLoad" finished-at="2025-09-01T15:27:01 IST" duration-ms="3450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageLoad -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:frontend.tests.PageLoadTest@1e66f1f5]" started-at="2025-09-01T15:27:01 IST" name="tearDown" finished-at="2025-09-01T15:27:01 IST" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- frontend.tests.PageLoadTest -->
+    </test> <!-- Frontend Tests -->
+    <test started-at="2025-09-01T15:27:01 IST" name="Backend Tests" finished-at="2025-09-01T15:27:03 IST" duration-ms="2666">
       <class name="backend.tests.APITest">
-        <test-method signature="validateHttpsAndSecurityHeaders()[pri:0, instance:backend.tests.APITest@47eaca72]" started-at="2025-09-01T15:00:47 IST" name="validateHttpsAndSecurityHeaders" finished-at="2025-09-01T15:00:49 IST" duration-ms="1689" status="PASS">
+        <test-method signature="validateHttpsAndSecurityHeaders()[pri:0, instance:backend.tests.APITest@4c39bec8]" started-at="2025-09-01T15:27:01 IST" name="validateHttpsAndSecurityHeaders" finished-at="2025-09-01T15:27:03 IST" duration-ms="1726" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateHttpsAndSecurityHeaders -->
-        <test-method signature="validatePublicEndpoint()[pri:0, instance:backend.tests.APITest@47eaca72]" started-at="2025-09-01T15:00:49 IST" name="validatePublicEndpoint" finished-at="2025-09-01T15:00:50 IST" duration-ms="908" status="PASS">
+        <test-method signature="validatePublicEndpoint()[pri:0, instance:backend.tests.APITest@4c39bec8]" started-at="2025-09-01T15:27:03 IST" name="validatePublicEndpoint" finished-at="2025-09-01T15:27:03 IST" duration-ms="934" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validatePublicEndpoint -->
       </class> <!-- backend.tests.APITest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Backend Tests -->
+  </suite> <!-- Loan Prediction Automation Suite -->
 </testng-results>
